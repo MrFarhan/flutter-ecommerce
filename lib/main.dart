@@ -1,5 +1,9 @@
-import 'package:ecommerce/screens/Aboutus.dart';
-import 'package:ecommerce/screens/Home.dart';
+import 'package:ecommerce/src/screens/Alert.dart';
+import 'package:ecommerce/src/screens/Brand.dart';
+import 'package:ecommerce/src/screens/Gamification.dart';
+import 'package:ecommerce/src/screens/Home.dart';
+import 'package:ecommerce/src/screens/Main.dart';
+import 'package:ecommerce/src/screens/Wallet.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,8 +18,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/HomeScreen': (context) => HomeScreen(),
-        '/AboutusScreen': (context) => AboutusScreen(),
+        '/Home': (context) => HomeScreen(),
+        '/Brand': (context) => BrandScreen(),
+        '/Gamification': (context) => GamificationScreen(),
+        '/Wallet': (context) => WalletScreen(),
+        '/Alert': (context) => AlertScreen(),
       },
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -30,7 +37,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const MainScreen(),
     );
   }
 }

@@ -59,7 +59,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - src/assets/
+    - lib/src/assets/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -76,25 +76,25 @@ flutter:
   fonts:
     - family: Effra
       fonts:
-        - asset: src/assets/fonts/Effra.ttf
-        - asset: src/assets/fonts/Effra-Regular.ttf
+        - asset: lib/src/assets/fonts/Effra.ttf
+        - asset: lib/src/assets/fonts/Effra-Regular.ttf
     - family: SFUIDisplay
       fonts:
-        - asset: src/assets/fonts/SFUIDisplay-Regular.ttf
-        - asset: src/assets/fonts/SFUIDisplay-Semibold.ttf
-        - asset: src/assets/fonts/SFUIDisplay-Medium.ttf
-        - asset: src/assets/fonts/SFUIDisplay-Bold.ttf
+        - asset: lib/src/assets/fonts/SFUIDisplay-Regular.ttf
+        - asset: lib/src/assets/fonts/SFUIDisplay-Semibold.ttf
+        - asset: lib/src/assets/fonts/SFUIDisplay-Medium.ttf
+        - asset: lib/src/assets/fonts/SFUIDisplay-Bold.ttf
     - family: SourceSansPro
       fonts:
-        - asset: src/assets/fonts/SourceSansPro-Regular.ttf
-        - asset: src/assets/fonts/SourceSansPro-Bold.ttf
-        - asset: src/assets/fonts/SourceSansPro-SemiBold.ttf
-        - asset: src/assets/fonts/SFUIDisplay-Bold.ttf
+        - asset: lib/src/assets/fonts/SourceSansPro-Regular.ttf
+        - asset: lib/src/assets/fonts/SourceSansPro-Bold.ttf
+        - asset: lib/src/assets/fonts/SourceSansPro-SemiBold.ttf
+        - asset: lib/src/assets/fonts/SFUIDisplay-Bold.ttf
     - family: HelveticaNeue
       fonts:
-        - asset: src/assets/fonts/HelveticaNeue.ttf
-        - asset: src/assets/fonts/HelveticaNeueBd.ttf
-        - asset: src/assets/fonts/HelveticaNeueLTW.ttf
+        - asset: lib/src/assets/fonts/HelveticaNeue.ttf
+        - asset: lib/src/assets/fonts/HelveticaNeueBd.ttf
+        - asset: lib/src/assets/fonts/HelveticaNeueLTW.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

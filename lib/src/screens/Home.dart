@@ -1,4 +1,3 @@
-import 'package:ecommerce/screens/Aboutus.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -12,15 +11,12 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Home Screen"),
-      ),
       body: Center(
         child: TextButton(
             onPressed: () {
-              Navigator.pushNamed(context, '/AboutusScreen');
+              Navigator.pop(context);
             },
-            child: const Text("Go to different screen")),
+            child: const Text("I am your home screen")),
       ),
     );
   }
